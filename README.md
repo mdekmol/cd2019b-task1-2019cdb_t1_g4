@@ -1,8 +1,7 @@
 # BG4 2019 Spring Product collaboration design
 
-網站 :
+Wedsite：https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4
 
-投影片:
+Reveal：https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/reveal
 
-blog:
-
+blog: https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/blog
