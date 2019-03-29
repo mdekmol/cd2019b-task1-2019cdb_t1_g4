@@ -139,6 +139,45 @@
 <p><a href="https://github.com/CoppeliaRobotics/v_rep">https://github.com/CoppeliaRobotics/v_rep</a> is the  V-rep core library: </p>
 <p>v_rep.dll </p>
 <p>libv_rep.dll.a</p>
+<p><span>編譯上述程式庫所需設定檔案 (</span><a href="https://2019wcm.blogspot.com/2019/03/v-rep.html">編譯參考</a><span>):</span></p>
+<p><span>[</span></p>
+<div class="line number1 index0 alt2"><code class="js preprocessor"># location of boost headers:</code></div>
+<div class="line number2 index1 alt1"><code class="js spaces">    </code><code class="js plain">BOOST_INCLUDEPATH = </code><code class="js string">"y:/boost_1_66_0"</code>    <code class="js preprocessor"># (e.g. Windows)</code></div>
+<div class="line number3 index2 alt2"><code class="js spaces">    </code><code class="js preprocessor">#BOOST_INCLUDEPATH = "/usr/local/include"    # (e.g. MacOS)</code></div>
+<div class="line number4 index3 alt1"> </div>
+<div class="line number5 index4 alt2"><code class="js preprocessor"># location of lua headers:</code></div>
+<div class="line number6 index5 alt1"><code class="js spaces">    </code><code class="js plain">LUA_INCLUDEPATH = </code><code class="js string">"y:/lua-5.1.5/src"</code>    <code class="js preprocessor"># (e.g. Windows)</code></div>
+<div class="line number7 index6 alt2"><code class="js spaces">    </code><code class="js preprocessor">#LUA_INCLUDEPATH = "../../../../../mingw64/include/lua5.1"    # (e.g. Windows-MSYS2)</code></div>
+<div class="line number8 index7 alt1"><code class="js spaces">    </code><code class="js preprocessor">#LUA_INCLUDEPATH = "../../lua5_1_4_Linux26g4_64_lib/include"    # (e.g. Ubuntu)</code></div>
+<div class="line number9 index8 alt2"><code class="js spaces">    </code><code class="js preprocessor">#LUA_INCLUDEPATH = "/usr/local/include/lua5.1"    # (e.g. MacOS)</code></div>
+<div class="line number10 index9 alt1"> </div>
+<div class="line number11 index10 alt2"><code class="js preprocessor"># lua libraries to link:</code></div>
+<div class="line number12 index11 alt1"><code class="js spaces">    </code><code class="js plain">LUA_LIBS = </code><code class="js string">"y:/lua-5.1.5/src/liblua.a"</code>    <code class="js preprocessor"># (e.g. Windows)</code></div>
+<div class="line number13 index12 alt2"><code class="js spaces">    </code><code class="js preprocessor">#LUA_LIBS = -llua5.1    # (e.g. Windows-MSYS2)</code></div>
+<div class="line number14 index13 alt1"><code class="js spaces">    </code><code class="js preprocessor">#LUA_LIBS = -L"../../lua5_1_4_Linux26g4_64_lib/" -llua5.1    # (e.g. Ubuntu)</code></div>
+<div class="line number15 index14 alt2"><code class="js spaces">    </code><code class="js preprocessor">#LUA_LIBS = "/usr/local/lib/liblua5.1.dylib"    # (e.g. MacOS)</code></div>
+<div class="line number16 index15 alt1"> </div>
+<div class="line number17 index16 alt2"><code class="js preprocessor"># qscintilla location:</code></div>
+<div class="line number18 index17 alt1"><code class="js spaces">    </code><code class="js plain">QSCINTILLA_DIR = </code><code class="js string">"y:/QScintilla_gpl-2.10.2"</code>    <code class="js preprocessor"># (e.g. Windows)</code></div>
+<div class="line number19 index18 alt2"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_DIR = "../../QScintilla-commercial-2.7.2"    # (e.g. Windows-MSYS2)</code></div>
+<div class="line number20 index19 alt1"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_DIR = "../../QScintilla-commercial-2.7.2"    # (e.g. Ubuntu)</code></div>
+<div class="line number21 index20 alt2"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_DIR = "../../QScintilla-commercial-2.7.2"    # (e.g. MacOS)</code></div>
+<div class="line number22 index21 alt1"> </div>
+<div class="line number23 index22 alt2"><code class="js preprocessor"># qscintilla headers:</code></div>
+<div class="line number24 index23 alt1"><code class="js spaces">    </code><code class="js plain">QSCINTILLA_INCLUDEPATH = </code><code class="js string">"$${QSCINTILLA_DIR}/include"</code> <code class="js string">"$${QSCINTILLA_DIR}/Qt4Qt5"</code></div>
+<div class="line number25 index24 alt2"> </div>
+<div class="line number26 index25 alt1"><code class="js preprocessor"># qscintilla libraries to link:</code></div>
+<div class="line number27 index26 alt2"><code class="js spaces">    </code><code class="js plain">QSCINTILLA_LIBS = </code><code class="js string">"$${QSCINTILLA_DIR}/libqscintilla2_qt5d.dll.a"</code>    <code class="js preprocessor"># (e.g. Windows)</code></div>
+<div class="line number28 index27 alt1"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_LIBS = "$${QSCINTILLA_DIR}/release/release/libqscintilla2.dll.a"    # (e.g. Windows-MSYS2)    </code></div>
+<div class="line number29 index28 alt2"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_LIBS = "$${QSCINTILLA_DIR}/release/libqscintilla2.so"    # (e.g. Ubuntu)</code></div>
+<div class="line number30 index29 alt1"><code class="js spaces">    </code><code class="js preprocessor">#QSCINTILLA_LIBS = "$${QSCINTILLA_DIR}/release/libqscintilla2.9.0.2.dylib"    # (e.g. MacOS)</code></div>
+<div class="line number31 index30 alt2"> </div>
+<div class="line number32 index31 alt1"><code class="js preprocessor"># Make sure if a config.pri is found one level above, that it will be used instead of this one:</code></div>
+<div class="line number33 index32 alt2"><code class="js spaces">    </code><code class="js plain">exists(../config.pri) { include(../config.pri) }</code></div>
+<div class="line number33 index32 alt2"><code class="js plain"></code></div>
+<div class="line number33 index32 alt2"><code class="js plain">]</code></div>
+<div class="line number33 index32 alt2"><code class="js plain"></code></div>
+<div class="line number33 index32 alt2"><code class="js plain"><span>可見 </span><a href="https://www.boost.org/">Boost C++ 程式庫</a><span>,<span> </span></span><a href="https://www.lua.org/download.html">Lua 原始碼</a><span>與<span> </span></span><a href="https://www.riverbankcomputing.com/software/qscintilla/intro">QScintilla 原始碼</a><span>在 V-rep 系統中扮演重要角色.</span></code></div>
 <h4>V-rep 主執行程式</h4>
 <p><a href="https://github.com/CoppeliaRobotics/v_repClientApplication">https://github.com/CoppeliaRobotics/v_repClientApplication</a> is the  V-rep client application for core library:</p>
 <p>vrep.exe</p>
@@ -188,8 +227,7 @@
 <p>Surface reconstruction Plugin:</p>
 <p><a href="https://github.com/CoppeliaRobotics/v_repExtSurfaceReconstruction">https://github.com/CoppeliaRobotics/v_repExtSurfaceReconstruction</a> </p>
 <p>Cloud point matching plugin:</p>
-<p><a href="https://github.com/CoppeliaRobotics/v_repExtICP">https://github.com/CoppeliaRobotics/v_repExtICP</a> </p>
-<h3>BubbleRob</h3>
+<p><a href="https://github.com/CoppeliaRobotics/v_repExtICP">https://github.com/CoppeliaRobotics/v_repExtICP</a> </p><h3>BubbleRob</h3>
 <h4>V-rep user manual:</h4>
 <p><a href="http://www.coppeliarobotics.com/helpFiles/">http://www.coppeliarobotics.com/helpFiles/</a></p>
 <h4>BubbleRob Tutorial:</h4>
