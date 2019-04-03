@@ -835,7 +835,7 @@
 <p><img alt="" height="253" src="/images/26-w6.gif" width="500"/></p><h3>40623227-w6</h3>
 <p>完成BubbleRob tutorial的全部模擬，對相應的單字還得多多加強。<img alt="" height="400" src="/images/27-w6-模擬影片.gif" width="664"/></p>
 <h3>40623234-w6</h3>
-<h3>40623238-w6</h3>
+<p>完成整理gitbook第二章重點，還需要多了解書中的指令</p><h3>40623238-w6</h3>
 <p><a href="https://cad.onshape.com/documents/738f48358f431db0507a5d8b/w/36fba06acb66b090a39a8321/e/63181d9e641d4880e16f0cf7">https://cad.onshape.com/documents/738f48358f431db0507a5d8b/w/36fba06acb66b090a39a8321/e/63181d9e641d4880e16f0cf7</a></p>
 <p>組合圖(onshape)</p>
 <p><img alt="" height="313" src="/images/38-w6-1.png" width="500"/></p>
@@ -914,7 +914,27 @@
 <h1>Organize Git Book</h1>
 <h2>Chapter 1</h2>
 <h2>Chapter 2</h2>
-<h2>Chapter 3</h2>
+<p>2.1Git 基礎 - 取得一個 Git 倉儲</p>
+<p><span>有兩種主要方法來取得一個 Git 倉儲。 第一種是將現有的專案或者資料夾匯入 Git； 第二種是從其它伺服器克隆（clone）一份現有的 Git 倉儲。</span></p>
+<p><span>2.2</span>Git 基礎 - 紀錄變更到版本庫中</p>
+<p><span>工作目錄下的每個檔案有兩種狀態：已追蹤、未追蹤。 「已追蹤」檔案是指那些在上次快照中的檔案：它們的狀態可能是「未修改」、「已修改」、「已預存（staged）」； 「未追蹤」則是其它以外的檔案——在工作目錄中，卻不包含在上次的快照中，也不在預存區（staging area）中的任何檔案； 當你第一次克隆（clone）一個版本庫時，所有檔案都是「已追蹤」且「未修改」，因為 Git 剛剛檢出它們並且你尚未編輯過任何檔案。</span></p>
+<p><span>2.3</span>Git 基礎 - 檢視提交的歷史記錄</p>
+<p><code><span>想要檢視之前發生過什麼事，在產生數筆提交（commit）或者克隆（clone）一個已有歷史記錄的版本庫之後，</span>git log</code><span><span> </span>命令有大量且多樣的選項，能精確地找出你想搜尋的結果</span></p>
+<p><span></span>2.4<span> </span>Git 基礎 - 復原</p>
+<p><span>常見的復原操作發生在當你太早提交（commit），接著才發現忘了加入某些檔案，或者寫錯了提交訊息； 如果你想要重新提交，你可以在提交命令上使用 <code>--amend</code></span></p>
+<p><span><code>git checkout -- &lt;file&gt;<span><span> </span>是一個危險的命令， 你對那個檔案所做的任何修改都會消失——Git 只是複製了另一個檔案來覆蓋它； 除非你很肯定地知道你不想要那個檔案了，否則千萬不要使用這個命令。</span></code></span></p>
+<p><span><code><span>2.5</span></code></span>Git 基礎 - 與遠端協同工作</p>
+<p><span>將分享的資料「推送（push）」到端遠版本庫、或者從遠端版本庫「拉取（pull）」分享的資料</span></p>
+<p><span>你可以執行 <code>git remote rename</code><span><span> </span>來重新命名遠端的簡稱。 例如：如果你想要將<span> </span></span><code>pb</code><span><span> </span>重新命名為<span> </span></span><code>paul</code></span></p>
+<p><span><code>2.6</code></span>Git 基礎 - 標籤</p>
+<p>列出你的標籤</p>
+<div class="paragraph">
+<p>想要列出 Git 中所有標籤的方法非常直覺。 只要輸入<span> </span><code>git tag，<span>建立一個有註解的標籤很簡單。 最簡單的方法是在你建立標籤時，同時指定 </span><code>-a，<span>指令中的 </span><code>-a</code><span><span> </span>選項後面同時指定了一個標籤訊息，這個訊息會和這個標籤一起保存。</span></code></code></p>
+<p><code><code><span>2.7</span></code></code>Git 基礎 - Git Aliases</p>
+<p><span>如果你只打了某個指令的一部份，Git 並不會自動推測出你想要的指令。 如果你懶得輸入完整的 Git 指令，你可以輕易的使用 </span><code>git config</code><span><span> </span>來替指令設定別名。</span><span>這樣的設定意味著你可以只打 </span><code>git ci</code><span><span> </span>而不需要打<span> </span></span><code>git commit</code><span>。 隨著你深入使用 Git，你將會發現某些指令用的很頻繁，不要猶豫，馬上建立新的指令別名。</span></p>
+<p><span>2.8</span>Git 基礎 - 總結</p>
+<p><span>完成所有基本的 Git 本地操作——創建或者克隆一個倉儲、修改檔案、預存並提交這些更改、瀏覽倉儲過去的所有更改歷史。</span></p>
+</div><h2>Chapter 3</h2>
 <h2>Chapter 4</h2>
 <h2>Chapter 5</h2>
 <h2>Chapter 6</h2>
@@ -980,13 +1000,13 @@
 <p><strong>➤Week9 心得:</strong></p>
 <h2>40623226</h2>
 <p><strong>➤Week4 心得:</strong></p>
-<p><strong></strong></p>
+<p><strong></strong>這週進行分組，分配到工作是V-rep，在這之前先設定好個人SSH倉儲設定。</p>
 <hr/>
 <p><strong>➤Week5 心得:</strong></p>
-<p><strong></strong></p>
+<p><strong></strong>在與組員模擬中，因為許多英文的問題，花了很多時間查找單字，進度比較慢。</p>
 <hr/>
 <p><strong>➤Week6 心得:</strong></p>
-<p><strong></strong></p>
+<p><strong></strong>完成了V-rep Bubble模擬。</p>
 <hr/>
 <p><strong>➤Week7 心得:</strong></p>
 <p><strong></strong></p>
@@ -994,8 +1014,7 @@
 <p><strong>➤Week8 心得:</strong></p>
 <p><strong></strong></p>
 <hr/>
-<p><strong>➤Week9 心得:</strong></p>
-<h2>40623227</h2>
+<p><strong>➤Week9 心得:</strong></p><h2>40623227</h2>
 <p><strong>➤Week4 心得:</strong></p>
 <p>這週確認自己組別，雖然這次又跟上學期不太一樣，人手也比上學期多，因此在工作分配上顯得困難許多。</p>
 <hr/>
