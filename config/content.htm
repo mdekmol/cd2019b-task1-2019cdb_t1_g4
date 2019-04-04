@@ -911,7 +911,8 @@
 <h2>Finish Drawing</h2>
 <h1>V-rep Simulation</h1>
 <p></p>
-<h1>Organize Git Book</h1>
+<p><a href="/downloads/bubbleRob.7z" title="V-rep模擬">V-rep模擬</a></p>
+<p></p><h1>Organize Git Book</h1>
 <h2>Chapter 1</h2>
 <h2>Chapter 2</h2>
 <p>2.1Git 基礎 - 取得一個 Git 倉儲</p>
@@ -1007,6 +1008,12 @@
 <hr/>
 <p><strong>➤Week6 心得:</strong></p>
 <p><strong></strong>完成了V-rep Bubble模擬。</p>
+<p>在git add .    提交推送的時候，運到了下圖問題</p>
+<p><img alt="" height="30" src="/images/git add-26.PNG" width="500"/></p>
+<p>在上網查詢之後，發現是因為不同平台上換行符被修改時，Git會認為整個文件修改，</p>
+<p>不過Git也有提供指令解決問題</p>
+<p>#提交時轉換為LF，check out時不轉換<br/>git config --global core.autocrlf   input</p>
+<p># 拒絕提交包含混合換行符的文件<br/>git config --global core.safecrlf  true<br/> <br/>設定完check out   <span style="color: #ff0000;">.</span><span style="background-color: #ffffff; color: #ff0000;">gifconfig<br/><br/><img alt="" height="128" src="/images/gitconfig.PNG" width="500"/><span style="color: #000000;"><br/></span><span style="color: #000000;"><br/>之後就可以正常推送<br/></span><br/></span></p>
 <hr/>
 <p><strong>➤Week7 心得:</strong></p>
 <p><strong></strong></p>
@@ -1118,19 +1125,19 @@
 <h2>40423237</h2>
 <p><strong>➤Week4 心得:</strong></p>
 <p>目前可攜程式還在研究中。</p>
-<hr/>
+<hr>
 <p><strong>➤Week5 心得:</strong></p>
 <p><span>本週開始進行小組分工，分配到了gitbook 重點整理，目前只研究到了前言的部份，單單了解到一些名詞的部分，接下來將繼續研究更多git 相關使用方法。</span></p>
-<hr/>
+<hr>
 <p><strong>➤Week6 心得:</strong></p>
 <p><strong></strong></p>
-<hr/>
+<hr>
 <p><strong>➤Week7 心得:</strong></p>
 <p><strong></strong></p>
-<hr/>
+<hr>
 <p><strong>➤Week8 心得:</strong></p>
 <p><strong></strong></p>
-<hr/>
+<hr>
 <p><strong>➤Week9 心得:</strong></p>
 <h1>Git http &amp; ssh</h1>
 <p>利用 ssh 對 git 改版, 必須使用  home/.ssh/config 設定, 才能透過 proxy 伺服器進行連線, 由於在 IPv6 環境下, 必須要透過 proxy 才能對 Git 連線, 因此若無 config, 無法對遠端改版</p>
@@ -1616,4 +1623,4 @@ COPY TO CLIPBOARD	</pre>
 <p><strong>✯Solution 3:</strong> tinymce 中插入 video 的小視窗, 要移除引用的圖像與連結, 因為一般建議不要在內容中存入 .mp4 的影片資料, 而只接受引入影片 URL 連結。</p>
 <p><strong>➤Issue 4:</strong> 在分組網站上Geometry的網頁跑掉。</p>
 <p><strong>✯Solution 4:</strong> 由於Geometry的網頁設定的Formats裡面的Headings設定有錯誤，只要把Headings設定重新用過一次即可。</p>
-<p><span></span></p>
+<p><span></span></p></hr></hr></hr></hr></hr>
