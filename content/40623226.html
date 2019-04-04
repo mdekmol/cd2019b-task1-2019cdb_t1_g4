@@ -87,6 +87,12 @@ $(document).ready(doSearch);
 <hr/>
 <p><strong>➤Week6 心得:</strong></p>
 <p><strong></strong>完成了V-rep Bubble模擬。</p>
+<p>在git add .    提交推送的時候，運到了下圖問題</p>
+<p><img alt="" height="30" src="./../images/git add-26.PNG" width="500"/></p>
+<p>在上網查詢之後，發現是因為不同平台上換行符被修改時，Git會認為整個文件修改，</p>
+<p>不過Git也有提供指令解決問題</p>
+<p>#提交時轉換為LF，check out時不轉換<br/>git config --global core.autocrlf   input</p>
+<p># 拒絕提交包含混合換行符的文件<br/>git config --global core.safecrlf  true<br/> <br/>設定完check out   <span style="color: #ff0000;">.</span><span style="background-color: #ffffff; color: #ff0000;">gifconfig<br/><br/><img alt="" height="128" src="./../images/gitconfig.PNG" width="500"/><span style="color: #000000;"><br/></span><span style="color: #000000;"><br/>之後就可以正常推送<br/></span><br/></span></p>
 <hr/>
 <p><strong>➤Week7 心得:</strong></p>
 <p><strong></strong></p>
@@ -94,4 +100,5 @@ $(document).ready(doSearch);
 <p><strong>➤Week8 心得:</strong></p>
 <p><strong></strong></p>
 <hr/>
-<p><strong>➤Week9 心得:</strong></p><br />40623225 << <a href='40623225.html'>Previous</a> <a href='40623227.html'>Next</a> >> 40623227</div></section></div></body></html>
+<p><strong>➤Week9 心得:</strong></p>
+<br />40623225 << <a href='40623225.html'>Previous</a> <a href='40623227.html'>Next</a> >> 40623227</div></section></div></body></html>
