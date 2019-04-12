@@ -925,7 +925,7 @@
 <h3>40423232-w9</h3>
 <h3>40423237-w9</h3>
 <h1>Operation Demo</h1>
-<h2>如何建立可攜程式系統</h2>
+<p>把上課老師所教的東西整理並放於此處。</p><h2>如何建立可攜程式系統</h2>
 <p><strong>1.</strong><span>在C:/中創建名稱為data的新資料夾 ，等等方便連接Y:/</span></p>
 <p><strong>2.</strong><span>進入 </span><a href="https://www.python.org./downloads/">python3.7.2</a><span>  點選Downloads底下的Windows</span><img alt="" height="468" src="/images/建立可攜系統-1.png" width="1000"/></p>
 <hr/>
@@ -1724,10 +1724,16 @@ COPY TO CLIPBOARD	</pre>
 <h1>Issue &amp; Solution</h1>
 <p><strong>➤Issue 1:</strong> 全部頁面會因無法正確解讀而誤刪。</p>
 <p><strong>✯Solution 1: </strong>在特定情況下, 系統會誤刪 config/content.htm 檔案, 目前在單頁或全部頁面編輯存檔之前, 或將上一版本的 content.htm 存入 content_back.htm, 若 content.htm 內容被程式誤刪, 可以利用備份檔案複製回原始內容後, 再進行後續處理。</p>
+<hr/>
 <p><strong>➤Issue 2:</strong> 頁面標題不支援特殊符號。</p>
 <p><strong>✯Solution 2: </strong>各頁面標題目前不支援特殊符號, 例如: "/", "?" 等, 若已經發生程式無法解讀頁面的情況, 只能從編輯 config/content.htm 下手, 若系統位於遠端, 則後續必須要再設法提供一個額外的編輯 config/content.htm 檔案的網際連結功能。</p>
+<hr/>
 <p><strong>➤Issue 3:</strong> Video 引用不支援內部引用。</p>
 <p><strong>✯Solution 3:</strong> tinymce 中插入 video 的小視窗, 要移除引用的圖像與連結, 因為一般建議不要在內容中存入 .mp4 的影片資料, 而只接受引入影片 URL 連結。</p>
+<hr/>
 <p><strong>➤Issue 4:</strong> 在分組網站上Geometry的網頁跑掉。</p>
 <p><strong>✯Solution 4:</strong> 由於Geometry的網頁設定的Formats裡面的Headings設定有錯誤，只要把Headings設定重新用過一次即可。</p>
-<p><span></span></p>
+<hr/>
+<p><span><strong>➤Issue 5:</strong><span> 在分組網站上出現只有head1的問題，其餘製作的東西消失。</span></span></p>
+<p><span><span><img alt="" height="579" src="/images/issue5.jpg" width="800"/></span></span></p>
+<p><span><span><strong>✯Solution 5:</strong>目前找不到任何方法去解決head1的問題，最後是把原本的資料夾的內容刪除並且重新clone一次倉儲才得以解決。</span></span></p>
