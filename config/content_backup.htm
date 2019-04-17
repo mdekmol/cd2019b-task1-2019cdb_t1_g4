@@ -927,9 +927,15 @@
 <hr/>
 <p><span><strong>5.</strong>新增如何建立可攜系統</span></p>
 <p><span><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%8F%AF%E6%94%9C%E7%A8%8B%E5%BC%8F%E7%B3%BB%E7%B5%B1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%8F%AF%E6%94%9C%E7%A8%8B%E5%BC%8F%E7%B3%BB%E7%B5%B1.html</a></span></p>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<p><span><img alt="" height="435" src="/images/24-w7-5.png" width="600"/></span></p><h3>40623225-w7</h3>
+<p></p>
+<p>因為連假的的關係，所以這周並沒有做太多的事情，大概就是放假前和組員討論關於分配工作的問題，本來是每個人的心得都交給一個人負責推送，其他人負責忙其他東西，像是V-rep模擬、Kungit手冊還有onshape繪圖，但是老師上課說必須要每個人都有commit資料，所以我們就改成大家推送自己的每週進度和心得，不過會遇到的問題就是可能產生衝突，所以在這部分也和大家討論好處理方式了。</p><h3>40623226-w7</h3>
+=======
 <p><span><img alt="" height="435" src="/images/24-w7-5.png" width="600"/></span></p>
 <h3>40623225-w7</h3>
 <h3>40623226-w7</h3>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 82c37bf5474dfa0dd9234e2990629896c31e539b
 <h3>40623227-w7</h3>
 <h3>40623234-w7</h3>
 <h3>40623238-w7</h3>
@@ -941,7 +947,33 @@
 <h3>40623210-w8</h3>
 <h3>40623224-w8</h3>
 <h3>40623225-w8</h3>
-<h3>40623226-w8</h3>
+<p>這週開始做實習任務三，可是下課前遇到一個問題，還是沒有解決，下禮拜會再嘗試解決。</p>
+<p>1.一開始先在onshape將圖繪製出來</p>
+<p><img alt="" height="235" src="/images/40623225 onshape-1.png" width="500"/></p>
+<p>之後要進行轉檔，需要將檔案轉成stl檔。</p>
+<p><img alt="" height="235" src="/images/40623225 onshape-2.png" width="500"/></p>
+<p>這裡要將檔案選stl檔，並且將尺寸改為mm。</p>
+<p><img alt="" height="264" src="/images/40623225 onshape-3.1.png" width="277"/></p>
+<p>2.把轉好的stl檔拉進去v-rep做修改。拉進去之後為下圖</p>
+<p><img alt="" height="246" src="/images/40623225 v-rep -1.png" width="500"/></p>
+<p>將左邊兩個檔案一起選起來後，按右鍵<span>Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Divide selected shapes</span></p>
+<p><img caption="false" height="246" src="/images/40623225 v-rep -2.png" width="500"/></p>
+<p>還是一樣將左邊兩個選起來後，按右鍵<span>Menu bar --&gt; Edit -&gt; Grouping/Merging --&gt; Merge selected shapes</span></p>
+<p><img alt="" height="246" src="/images/40623225 v-rep -3.png" width="500"/></p>
+<p>當上述兩個步驟完成後，兩個檔案會合併成一個檔案，之後對檔案右鍵<span>Menu bar --&gt; Edit --&gt; Morph selection into convex shapes</span></p>
+<p><img alt="" height="246" src="/images/40623225 v-rep -4.png" width="500"/></p>
+<p>結果如下</p>
+<p><img alt="" height="246" src="/images/40623225 v-rep -5.png" width="500"/></p>
+<p>再來再對這個檔案右鍵<span>Menu bar --&gt; Edit --&gt; Decimate selected shape</span></p>
+<p><img alt="" height="246" src="/images/40623225 v-rep -6.png" width="500"/></p>
+<p>再右鍵一次<span>Menu bar --&gt; Edit --&gt; Extract inside of selected shape</span></p>
+<p><span><img alt="" height="246" src="/images/40623225 v-rep -7.png" width="500"/></span></p>
+<p>正常來說會變成</p>
+<p><img alt="" height="183" src="/images/40623225 v-rep -9.png" width="422"/></p>
+<p>可是不知道為甚麼會變成這樣，所以還需要再和組員討論看看是哪邊的問題。</p>
+<p><img alt="" height="344" src="/images/40623225 v-rep -8.png" width="255"/></p>
+<p></p>
+<p></p><h3>40623226-w8</h3>
 <h3>40623227-w8</h3>
 <p>1.將手足球匯入VREP，並裝上旋轉軸，發現當初畫圖可能可能與人物約束住，導致無法將軸正確的安裝在圓桿上，因此還需要再改圖。</p>
 <p><img alt="" height="261" src="/images/27-W8-1.jpg" width="500"/></p>
@@ -1165,13 +1197,13 @@
 <p>這次再模擬的時候遇到了兩個大問題，一個是當我們在V-rep裡面按執行的時候，我們發現中間的感測器並不是往前行走，後來找了又找，終於發現原來是在程式碼裡有個速度加了個負號導致我們無法正常往前，另外一個是感測器只能感測到某幾個圓柱，本來以為是高度不夠高，可是改過高度也發現還是沒辦法偵測到，但是我們還是找不到問題點，所以就直接複製其他能正常偵測到的圓柱。</p>
 <hr/>
 <p><strong>➤Week7 心得:</strong></p>
-<p><strong></strong></p>
+<p><strong></strong>清明連假</p>
 <hr/>
 <p><strong>➤Week8 心得:</strong></p>
-<p><strong></strong></p>
+<p><strong></strong>這週我們本來再討論實習任務3的機械手臂，討論到後來的結果就怎麼拆也沒辦法把手臂拆成多個三角形，於是我們就開始著手做手足球的部分，結果也因為足球員的左右似乎沒預留空間，導致足球員卡住，所以只好再請畫的人重新修改。</p>
+<p></p>
 <hr/>
-<p><strong>➤Week9 心得:</strong></p>
-<h2>40623226</h2>
+<p><strong>➤Week9 心得:</strong></p><h2>40623226</h2>
 <p><strong>➤Week4 心得:</strong></p>
 <p><strong></strong>這週進行分組，分配到工作是V-rep，在這之前先設定好個人SSH倉儲設定。</p>
 <hr/>
@@ -1208,10 +1240,9 @@
 <p><strong></strong></p>
 <hr/>
 <p><strong>➤Week8 心得:</strong></p>
-<p><strong></strong></p>
+<p>原本想在這周完成初步的手足球部分，但因為可能原本圖有約束到，因此無法完成，這在之後我想還得多多注意一些細節，因為很多事都會在vrep中浮現出來。</p>
 <hr/>
-<p><strong>➤Week9 心得:</strong></p>
-<h2>40623234</h2>
+<p><strong>➤Week9 心得:</strong></p><h2>40623234</h2>
 <p><strong>➤Week4 心得:</strong></p>
 <p>這週確認分組，但分組與上學期不同，採用隨機分組，人雖然變多，分配工作時也增加困難度。</p>
 <hr/>
