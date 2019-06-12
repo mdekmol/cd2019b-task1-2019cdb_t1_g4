@@ -24,22 +24,22 @@
 <v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190402155902.1"><vh>組員分工</vh>
-<v t="leo.20190402155902.2"><vh>組員分工</vh>
+<v t="leo.20190402155902.1" a="E"><vh>組員分工</vh>
+<v t="leo.20190402155902.2" a="E"><vh>組員分工</vh>
 <v t="leo.20190402155902.3"><vh>分工內容</vh></v>
 </v>
 </v>
-<v t="leo.20190416232359.1" a="E"><vh>W1</vh>
+<v t="leo.20190416232359.1"><vh>W1</vh>
 <v t="leo.20190416232359.2" a="E"><vh>1</vh>
 <v t="leo.20190416232359.3"><vh>first</vh></v>
 </v>
 </v>
-<v t="leo.20190417003835.1" a="E"><vh>W2</vh>
+<v t="leo.20190417003835.1"><vh>W2</vh>
 <v t="leo.20190417003835.2" a="E"><vh>1</vh>
 <v t="leo.20190417003835.3"><vh>first</vh></v>
 </v>
 </v>
-<v t="leo.20190417072122.1" a="E"><vh>W3</vh>
+<v t="leo.20190417072122.1"><vh>W3</vh>
 <v t="leo.20190417072122.2" a="E"><vh>1</vh>
 <v t="leo.20190417072122.3"><vh>first</vh></v>
 </v>
@@ -133,11 +133,11 @@
 <v t="leo.20190417233011.13"><vh>1</vh></v>
 </v>
 </v>
-<v t="leo.20190417235016.1" a="E"><vh>W8</vh>
+<v t="leo.20190417235016.1"><vh>W8</vh>
 <v t="leo.20190417235016.2" a="E"><vh>1</vh>
 <v t="leo.20190417235016.3"><vh>first</vh></v>
 </v>
-<v t="leo.20190418000701.1"><vh>2</vh>
+<v t="leo.20190418000701.1" a="E"><vh>2</vh>
 <v t="leo.20190418000701.2"><vh>1</vh></v>
 </v>
 <v t="leo.20190418001148.1" a="E"><vh>3</vh>
@@ -156,7 +156,7 @@
 <v t="leo.20190502225247.2"><vh>1</vh></v>
 </v>
 </v>
-<v t="leo.20190418001245.1" a="E"><vh>W9</vh>
+<v t="leo.20190418001245.1"><vh>W9</vh>
 <v t="leo.20190418001245.2"><vh>1</vh>
 <v t="leo.20190418001245.3"><vh>first</vh></v>
 </v>
@@ -164,7 +164,7 @@
 <v t="leo.20190502231010.2"><vh>first</vh></v>
 </v>
 </v>
-<v t="leo.20190502224738.1" a="E"><vh>W10</vh>
+<v t="leo.20190502224738.1"><vh>W10</vh>
 <v t="leo.20190502224738.2" a="E"><vh>1</vh>
 <v t="leo.20190502224738.3"><vh>first</vh></v>
 </v>
@@ -182,6 +182,61 @@
 </v>
 <v t="leo.20190502233524.1" a="E"><vh>6問題討論</vh>
 <v t="leo.20190502233524.2"><vh>1</vh></v>
+</v>
+</v>
+<v t="leo.20190612215541.1" a="E"><vh>期中後</vh>
+<v t="leo.20190612215541.2" a="E"><vh>1</vh>
+<v t="leo.20190612215541.3"><vh>first</vh></v>
+</v>
+</v>
+<v t="leo.20190612215712.1" a="E"><vh>專案分工</vh>
+<v t="leo.20190612215712.2" a="E"><vh>1</vh>
+<v t="leo.20190612215712.3"><vh>first</vh></v>
+</v>
+</v>
+<v t="leo.20190612222344.1"><vh>P1</vh>
+<v t="leo.20190612222344.2"><vh>1</vh>
+<v t="leo.20190612222344.3"><vh>first</vh></v>
+</v>
+<v t="leo.20190612222344.4" a="E"><vh>2</vh>
+<v t="leo.20190612222344.5"><vh>1</vh></v>
+</v>
+<v t="leo.20190612222344.6" a="E"><vh>3</vh>
+<v t="leo.20190612222344.7"><vh>1</vh></v>
+</v>
+<v t="leo.20190612222344.8" a="E"><vh>4</vh>
+<v t="leo.20190612222344.9"><vh>1</vh></v>
+</v>
+<v t="leo.20190612222344.10" a="E"><vh>5</vh>
+<v t="leo.20190612222344.11"><vh>1</vh></v>
+</v>
+</v>
+<v t="leo.20190612224502.1"><vh>P2</vh>
+<v t="leo.20190612224502.2"><vh>1</vh>
+<v t="leo.20190612224502.3"><vh>first</vh></v>
+</v>
+<v t="leo.20190612224502.4"><vh>2</vh>
+<v t="leo.20190612224502.5"><vh>1</vh></v>
+</v>
+<v t="leo.20190612224502.6"><vh>3</vh>
+<v t="leo.20190612224502.7"><vh>1</vh></v>
+</v>
+</v>
+<v t="leo.20190612230050.1" a="E"><vh>P3</vh>
+<v t="leo.20190612230050.2" a="E"><vh>1</vh>
+<v t="leo.20190612230050.3"><vh>first</vh></v>
+</v>
+<v t="leo.20190612230050.4" a="E"><vh>2</vh>
+<v t="leo.20190612230050.5"><vh>1</vh></v>
+</v>
+<v t="leo.20190612230050.6" a="E"><vh>3</vh>
+<v t="leo.20190612230050.7"><vh>1</vh></v>
+</v>
+<v t="leo.20190612230316.1" a="E"><vh>4</vh>
+<v t="leo.20190612230316.2"><vh>1</vh></v>
+</v>
+<v t="leo.20190612230321.1" a="E"><vh>5</vh>
+<v t="leo.20190612230321.2"><vh>1</vh></v>
 </v>
 </v>
 <v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
@@ -208,21 +263,20 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">&lt;p&gt;&lt;font face="serif" color="#FFAA33"  size="8"&gt;  2019 cd2019b-task1-2019cdb_t1_g4&lt;/font&gt;&lt;/p&gt;
+<t tx="leo.20180902120523.10">&lt;p&gt;&lt;font face="serif" color="#FFAA33"  size="8"&gt;  2019 SPRING 協同產品設計實習&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face="serif" color="#FFAA33"  size="7"&gt;  虎尾科技大學機械設計工程系&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face="serif" color="#00E600"  size="7"&gt;  第四組期末簡報&lt;/font&gt;&lt;/p&gt;
 
-####  BG5分組報告
+* [&lt;p&gt;&lt;font face="serif" color="#B8B800"  size="6"&gt;小組BG4倉儲&lt;/font&gt;&lt;/p&gt;](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4)
 
-#### 協同產品設計
+* [&lt;p&gt;&lt;font face="serif" color="#B8B800"  size="6"&gt;小組BG4網站&lt;/font&gt;&lt;/p&gt;](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4)
 
-#### 指導教授：嚴家銘
+* [&lt;p&gt;&lt;font face="serif" color="#B8B800"  size="6"&gt;全班倉儲&lt;/font&gt;&lt;/p&gt;](https://github.com/scrum-1/cd2019b)
 
+* [&lt;p&gt;&lt;font face="serif" color="#B8B800"  size="6"&gt;全班網站&lt;/font&gt;&lt;/p&gt;](http://cpgx.kmol.info/cd2019b/content/index.html)
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[Blog](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/blog/)
-
-[Website](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4)
+Created by  [AG4](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html)
+&lt;small&gt;
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -504,7 +558,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190402155902.3">## 組員分工
+<t tx="leo.20190402155902.3">## 組員分工(期中前)
 
 * Website+Blog maintenance (40623224)
 
@@ -1233,7 +1287,9 @@ Solution :
 </t>
 <t tx="leo.20190418001148.2">* 增加圖片外圍之邊框
 
-&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/24-w8-4.jpg"class="w3-round" alt="Norway" width="700" high="700"&gt;</t>
+&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/24-w8-4.jpg"class="w3-round" alt="Norway" width="700" high="700"&gt;
+
+</t>
 <t tx="leo.20190418001245.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1378,7 +1434,9 @@ Solution5 :
 
 *  V-rep當時模擬時無法分解
 
-*  把手部分在vrep裡的 Revolute旋轉軸無法對準正中心</t>
+*  把手部分在vrep裡的 Revolute旋轉軸無法對準正中心
+
+</t>
 <t tx="leo.20190502233054.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1392,7 +1450,9 @@ Solution5 :
 </t>
 <t tx="leo.20190502233054.2">*  因為V-rep當時模擬時無法分解，因此回去檢查繪圖過程，發先軸與孔大小一樣導致無法正常分解，因此座設計變更，將軸與孔大小變動使其能順利模擬。
 
-&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/W10-38-1.png"class="w3-round" alt="Norway" width="500" high="500"&gt;</t>
+&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/W10-38-1.png"class="w3-round" alt="Norway" width="500" high="500"&gt;
+
+</t>
 <t tx="leo.20190502233524.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1407,6 +1467,281 @@ Solution5 :
 <t tx="leo.20190502233524.2">*  把手部分也有問題，導致在vrep裡的 Revolute旋轉軸無法對準正中心，後來才發現是當初運用三點定弧而導致，並且去坐進一步的修改。
 
 以下為修改完的檔案模樣:
-&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/W10-27-1.gif"class="w3-round" alt="Norway" width="600" high="600"&gt;</t>
+&lt;img src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/W10-27-1.gif"class="w3-round" alt="Norway" width="600" high="600"&gt;
+
+</t>
+<t tx="leo.20190612215541.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190612215541.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612215541.3">### 期末簡報內容
+* 手足球設計
+  * 零組件尺寸分析
+  * 參數設計與繪圖
+  * 細部設計與 BOM
+* 送球機構設計、模擬
+* 手足球系統功能
+  * 架設攝影機
+  * 手動VS手動
+  * 電腦VS電腦
+  * 電腦VS手動</t>
+<t tx="leo.20190612215712.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190612215712.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612215712.3">### 專案執行分工
+* 執行規劃(40623226、40623234)
+* 設計與繪圖(40623224、40623238)
+* V-rep動態模擬(40623227、40623225、40623239、40423158)
+ * 輔(40623210、40623226)
+* 送球機構設計、模擬(40623224)
+* 結案報告
+ * 專案口頭簡報Reveal(40623210、40423158)
+ * 專案報告書(40423237、40423232)
+
+</t>
+<t tx="leo.20190612222344.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190612222344.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612222344.11">* 零組件爆炸圖展示過程
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/PigXInnJzQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190612222344.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612222344.3">* 手足球設計
+  * 零組件尺寸分析
+  * [參數設計與繪圖](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content)
+  * [細部設計與 BOM](http://cpgx.kmol.info/cd2019b/content/%E7%B4%B0%E9%83%A8%E8%A8%AD%E8%A8%88%E8%88%87%20BOM.html)
+
+
+</t>
+<t tx="leo.20190612222344.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612222344.5">* 零組件尺寸分析
+</t>
+<t tx="leo.20190612222344.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612222344.7">* 手足球系統的零組件參數設計與繪圖
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E6%89%8B%E8%B6%B3%E7%90%83%E5%8F%B0.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E6%AA%94%E5%A1%8A.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E6%89%8B%E8%B6%B3%E7%90%83%E4%BA%BA.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E6%8F%A1%E6%8A%8AA.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%B6%B3%E7%90%83%E5%8F%B0%E6%A1%8C%E8%A7%92.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+</t>
+<t tx="leo.20190612222344.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612222344.9">* 零組件零件部分組裝圖展示過程
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/qHQmoM1uQS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20190612224502.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190612224502.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612224502.3">* 送球機構
+ * [送球機構設計](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html)
+  * [送球機構模擬](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%A8%AD%E8%A8%88%E8%88%87%E6%A8%A1%E6%93%AC.html)</t>
+<t tx="leo.20190612224502.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612224502.5">* 送球機構設計
+
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E6%B4%BB%E5%A1%9E%E6%94%AF%E6%92%90%E6%A1%BF.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E6%B4%BB%E5%A1%9E%E6%A1%BF.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E6%B4%BB%E5%A1%9E.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E5%9C%93%E6%9F%B1.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E6%BB%BE%E9%81%93.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+&lt;img src="https://mdecadp2018.github.io/site-40623238/images/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%BD%89%E8%BC%AA.png"class="w3-round" alt="Norway" width="290" high="400"&gt;
+
+</t>
+<t tx="leo.20190612224502.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612224502.7">* 送球機構最終版
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/rjQ5rFQhfuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190612230050.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190612230050.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612230050.3">* 手足球系統功能
+  * 架設攝影機
+  * 手動VS手動
+  * 電腦VS電腦
+  * 電腦VS手動</t>
+<t tx="leo.20190612230050.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612230050.5">* 架設攝影機
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/Br_4BFrC9c4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190612230050.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612230050.7">* 手動VS手動
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/ltAH5UlB6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190612230316.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612230316.2">* 電腦VS電腦
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/pvus4S3yhbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190612230321.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190612230321.2">* 電腦VS手動
+&lt;iframe width="1000" height="500" src="https://www.youtube.com/embed/3dqeYTxdUQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 </tnodes>
 </leo_file>
