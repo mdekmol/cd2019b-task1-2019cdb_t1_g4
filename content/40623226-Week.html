@@ -126,16 +126,58 @@ $(document).ready(doSearch);
 <p><strong><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="250" src="//www.youtube.com/embed/oIpR6aeNIiU" width="400"></iframe></strong><strong><br/></strong></p>
 <hr/>
 <p><strong>Week11:</strong></p>
+<p>組員分工內容</p>
+<p><img alt="" height="406" src="https://mdecadp2018.github.io/site-40623226./../images/w11-40623226-1.PNG" width="423"/></p>
+<p>網站更動</p>
+<p><img alt="" height="250" src="https://mdecadp2018.github.io/site-40623226./../images/w11-40623226-2.PNG" width="420"/></p>
 <p><strong></strong></p>
 <hr/>
 <p><strong>Week12:</strong></p>
+<p>首先到fork內自己的倉儲後點選Setting修改分支為bg4<img alt="" height="285" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-1.PNG" width="500"/></p>
+<p>把scrum-1/cd2019 master 合併到40623226/cd2019b bg4</p>
+<p><img alt="" height="125" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-2.PNG" width="500"/></p>
+<p>輸入標題後點選Create<br/><img alt="" height="360" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-3.PNG" width="500"/></p>
+<p>完成後到Pull request 就可看到待提交內容<br/><img alt="" height="134" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-4.PNG" width="500"/></p>
+<p>點進去再點選Merge pull request完後再Confirm 即可<img alt="" height="320" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-5.PNG" width="500"/></p>
+<p>下次提交到scrum則對調即可</p>
+<p><img alt="" height="70" src="https://mdecadp2018.github.io/site-40623226./../images/w12-40623226-6.PNG" width="500"/></p>
 <hr/>
 <p><strong>Week13:</strong></p>
+<p>討論專案執行規劃</p>
+<p>並討論vrep模擬</p>
 <hr/>
 <p><strong>Week14:</strong></p>
+<p><strong><span>上網查閱資料並總結執行計畫、動機、結論</span></strong></p>
 <hr/>
 <p><strong>Week15:</strong></p>
+<p>調整Vrep程式內容</p>
+<p><img alt="" height="400" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-1.PNG" width="500"/></p>
+<p><img alt="" height="400" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-2.PNG" width="500"/></p>
+<p>position_BR=sim.getObjectPosition(BRod_handle,-1) <br/>桿子位置 = 模擬得到物件位置(處理的物件 , -1啟動)<br/>position_S=sim.getObjectPosition(Sphere_handle,-1)<br/><span>球的位置 = 模擬得到物件位置(處理的物件 , -1啟動)<br/></span><br/>X = position_S[1] - position_PR[1]<br/><span>X = 球的位置 - 桿件的位置 (在X軸上)</span><br/>Y = position_S[2] - position_PR[2]<span> <br/>Y = 球的位置 - 桿件的位置再(在Y軸上)<br/></span><br/>if 1 then<br/>    if X &lt;= -0.05 then --goalkeeper<br/><span> (假設X &lt;= -0.05時 = true)</span><br/>        sim.setJointTargetVelocity(right_joint_r1,-5)<br/>    elseif X &gt; -0.05 then<br/><span>(額外假設X&gt; -0.05時 = true )</span><br/>        sim.setJointTargetVelocity(right_joint_r1,5)<br/>    end<br/>    Y = Y*5<br/><span>    Y = 上方Y 在Y軸位置差* 5倍</span><br/>    sim.setJointTargetVelocity(right_slider_r1,Y)<br/><span>   模擬設定軸的目標速度(處理後的物間 , 上方 Y 追蹤的速度大小)</span></p>
+<p><img alt="" height="400" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-3.PNG" width="500"/></p>
+<p><img alt="" height="400" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-4.PNG" width="500"/></p>
+<p></p>
+<p><img alt="" height="400" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-5.PNG" width="500"/></p>
+<p></p>
+<p><img alt="" height="200" src="https://mdecadp2018.github.io/site-40623226./../images/w15-40623226-6.PNG" width="500"/></p>
+<p><span>    Y = 上方Y在Y軸的位置差*5倍</span></p>
+<p><span>        模擬設定的目標速度(處理後的物件 , Y的追蹤速度大小)</span></p>
+<p><span>    elseif (額外假設求在Y軸上 &gt; 0.1) then (接著)</span></p>
+<p>       [ if (假設X &lt;= -0.02時 = true) then (接著)</p>
+<p>            模擬設定軸的目標速度(處理後的物件 , 速度大小(負號為方向))</p>
+<p>        elseif (額外假設X&gt; -0.02時 = true ) then (接著)</p>
+<p>            模擬設定軸的目標速度(處理後的物件 , 速度大小)</p>
+<p>        YYYYY = 上方Y2 在Y軸位置差* 5倍</p>
+<p>        模擬設定軸的目標速度(處理後的物間 , 上方 Y2 追蹤的速度大小)</p>
 <hr/>
 <p><strong>Week16:</strong></p>
+<p><a href="https://drive.google.com/file/d/1_Hk3IbIg1_vGYoDoedjd3eVrQ4iWQK_m/view">人機對人機</a></p>
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="280" src="https://www.youtube.com/embed/J5nIZNrk1mI" width="500"></iframe></p>
+<p><a href="https://drive.google.com/file/d/1eaj6ecl3lIpankWGjdBZQgur_Uf5SOrK/view">人對人機</a></p>
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="314" src="https://www.youtube.com/embed/3dqeYTxdUQw" width="500"></iframe></p>
+<p><a href="https://drive.google.com/file/d/10O3gXgdBlt4v4Mzeh6rxT1oc7lA7H9fS/view">人對人</a></p>
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="341" src="https://www.youtube.com/embed/ltAH5UlB6ds" width="500"></iframe></p>
 <hr/>
-<p><strong>Week17:</strong></p><br />40623225-Week << <a href='40623225-Week.html'>Previous</a> <a href='40623227-Week.html'>Next</a> >> 40623227-Week</div></section></div></body></html>
+<p><strong>Week17:</strong></p>
+<p><strong><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="340" src="//www.youtube.com/embed/aYgmS1R16Xk" width="500"></iframe></strong></p>
+<br />40623225-Week << <a href='40623225-Week.html'>Previous</a> <a href='40623227-Week.html'>Next</a> >> 40623227-Week</div></section></div></body></html>
